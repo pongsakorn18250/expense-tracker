@@ -53,7 +53,7 @@ export default function Sidebar() {
         <div className="flex items-center justify-between p-4 mb-2">
           <div className="flex items-center gap-2 overflow-hidden">
             <LayoutDashboard className="w-8 h-8 text-blue-600 shrink-0" />
-            {!isCollapsed && <h1 className="text-xl font-bold text-slate-800 whitespace-nowrap">Serene Ledger</h1>}
+            {!isCollapsed && <h1 className="text-xl font-bold text-slate-800 whitespace-nowrap">Expense Tracker</h1>}
           </div>
           <button className="md:hidden p-2 bg-slate-50 rounded-md text-slate-500" onClick={() => setIsMobileOpen(false)}>
             <X className="w-5 h-5" />
