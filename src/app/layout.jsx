@@ -2,7 +2,7 @@ import './globals.css';
 import Sidebar from '@/components/Sidebar';
 
 export const metadata = {
-  title: 'Serene Ledger | Expense Tracker',
+  title: 'Expense Tracker',
   description: 'แอปพลิเคชันบันทึกรายรับรายจ่าย',
 };
 
